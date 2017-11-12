@@ -13,6 +13,7 @@ This project was created based on the React framework, and boosted with a few li
 - Material UI (http://www.material-ui.com/)
 - Moment.js (https://momentjs.com/)
 - A handy search tutorial (https://www.youtube.com/watch?v=YRiMo2EjVds)
+- And other helpful search tutorial (https://www.youtube.com/watch?v=OlVkYnVXPl0)
 - It was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 

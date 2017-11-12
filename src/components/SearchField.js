@@ -6,6 +6,7 @@ const SearchField = (props) => {
     <div>
     <TextField
       id="text-field-controlled"
+      hintText="Search here"
       value={props.value}
       onChange={props.handleSearchChange}
     />

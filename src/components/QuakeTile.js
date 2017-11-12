@@ -45,13 +45,13 @@ const QuakeTile = (props) => {
           <TableRowColumn>
             <RaisedButton label="Details" style={{ margin: 12 }} onClick={props.handleOpen}/>
             <Dialog
-              title="Lat & Long"
+              title="Latitude & Longitude"
               actions={action}
               modal={false}
               open={props.open}
               onRequestClose={props.handleClose}
             >
-              Latitude and Longitude will display here
+              Latitude: {props.latitude} and Longitude: {props.longitude}
             </Dialog>
           </TableRowColumn>
         </TableRow>
