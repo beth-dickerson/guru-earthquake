@@ -69,8 +69,6 @@ class QuakeData extends Component {
       let displayRowCheckbox = this.state.displayRowCheckbox
       let displaySelectAll = this.state.displaySelectAll
       return(
-        <div>
-
         <QuakeTile
           key={quake.id}
           id={quake.id}
@@ -87,7 +85,6 @@ class QuakeData extends Component {
           open={this.state.open}
           onClick={this.handleClose}
         />
-        </div>
       )
     })
     return (
@@ -98,7 +95,6 @@ class QuakeData extends Component {
           handleSearchChange={this.handleSearchChange}
         />
         {quakeComponents}
-
       </div>
     );
   }
